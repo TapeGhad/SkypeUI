@@ -2,18 +2,142 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Skype</title>
+    <title>Skype - AIS Chat</title>
     <link rel="stylesheet" href="style/style.css">
     <link rel="shortcut icon" href="images/Skype.ico" />
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/5aa5eece03.js" crossorigin="anonymous"></script>
 </head>
     <body >
-        <header>
+        <div class="content">
             <div class="header">
+                <div class="header_block1">
+                    <div class="hb1_user">
+                        <div class="hb1_logo"><h4>EC</h4></div>
+                        <h5 style="margin-right: 10px;color: rgba(0, 0, 0, 1);font-weight: 600;">Елисеев Сергей</h5>
+                        <h5 title="Баланс">$0.00</h5>
+                    </div>
+                    <i class="fa fa-ellipsis-h" title="Еще"></i>
+                </div>
+                <div class="header_block2">
+                    <i class="fa fa-search"title="Люди, группы и сообщения"></i>
+                    <input class="inpput_search" title="Люди, группы и сообщения" placeholder="Люди, группы и сообщения"/>
+                    <div class="search_point" title="Использовать панель набора"></div>
+                </div>
+                <div class="header_block3" >
+                    <div class="hb3_chats" style="margin-left: 10px;" title="Чаты">
+                        <i class="fa fa-comments"></i>
+                        <h4>Чаты</h4>
+                    </div>
+                    <div class="hb3_calls" title="Звонки">
+                        <i class="fa fa-phone"></i>
+                        <h4>Звонки</h4>
+                    </div>
+                    <div class="hb3_contacts" title="Контакты">
+                        <i class="fa fa-address-book"></i>
+                        <h4>Контакты</h4>
+                    </div>
+                    <div class="hb3_notif" style="margin-right: 10px;" title="Уведомления">
+                        <i class="fa fa-bell"></i>
+                        <h4>Уведомления</h4>
+                    </div>
+                </div>
+                <div class="header_block4">
+                    <div class="hb4_sobr" title="Собрание">
+                        <i class="fa fa-film"></i>
+                        <h4>Собрание</h4>
+                    </div>
+                    <div class="hb4_newChat" style="margin: 0 20px 0 0;" title="Новый чат">
+                        <i class="fa fa-clipboard"></i>
+                        <h4>Новый чат</h4>
+                    </div>
+                </div>
+                <h4 class="header_rcn">Недавние чаты</h4>
+                <div class="header_block5">
+                    <div class="hb1_logo" style="margin-top: 0;"><h4>AI</h4></div>
+                    <div class="header_chatInfo">
+                        <h3>AIS</h3>
+                        <h4>Tapeghad joined...</h4>
+                    </div>
+                    <h4 class="header_block5_date">07.07.2020</h4>
+                </div>
+                <div class="header_block5" style="background-color: rgba(0, 0, 0, 0);">
+                    <div class="hb1_logo" style="margin-top: 0;"><h4>MG</h4></div>
+                    <div class="header_chatInfo">
+                        <h3>Minsk Guys</h3>
+                        <h4>Всем добра!</h4>
+                    </div>
+                    <h4 class="header_block5_date">06.07.2020</h4>
+                </div>
+            </div>
+            <div class="chat_block">
+                <div class="chat_block_1">
+                    <div class="chb1_name">
+                        <h4 title="AIS">AIS</h4>
+                        <div class="chb1_name_actions" title="77 участников">
+                            <div class="chb1_na_1">
+                                <h5>77 участников</h5>
+                            </div>
+                            <h5> | </h5>
+                            <div class="chb1_na_2" title="Коллекция">
+                               <i class="fa fa-image"></i>
+                               <h5>Коллекция</h5> 
+                            </div>
+                            <h5> | </h5>
+                            <div class="chb1_na_3" title="Найти">
+                                <i class="fa fa-search"></i>
+                                <h5>Найти</h5> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="actions_in_chat" title="Видеозвонок">
+                        <div class="aic_camera">
+                            <i class="fa fa-camera"></i>
+                        </div>
+                        <div class="aic_phone" title="Голосовой звонок">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="aic_contact" title="Добавление в группу">
+                            <i class="fa fa-user-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="chat_block_2">
+                    <div class="chb2_message">
+                        <div class="hb1_logo"><h4>EC</h4></div>
+                        <div class="chb2_m_info">
+                            <h4 style="font-size: 15px;opacity: 0.7;cursor: text;">Сергей 19:38</h4>
+                            <div class="chb2_m_text">
+                                Всем привет!
+                            </div>
+                        </div>
+                        <i class="fas fa-ellipsis-v"></i>
+                    </div>
+                </div>
+                <div class="chat_block_3">
+                    <div class="chb3_input_block">
+                        <div class="chb3_ib_smail" title="Открыть выбор смайликов и модзи">
+                            <i class="far fa-smile"></i>
+                        </div>
+                        <input class="input_message" placeholder="Введите сообщение"/>
+                    </div>
+                    <div class="chb3_add_image" title="Добавить файлы">
+                        <i class="far fa-images"></i>
+                    </div>
+                    <div class="chb3_add_contact" title="Отправить контакты в чат">
+                        <i class="far fa-id-card"></i>
+                    </div>
+                    <div class="chb3_use_micro" title="Записать сообщение">
+                        <i class="fas fa-microphone-alt"></i>
+                    </div>
+                    <div class="chb3_more">
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                </div>
 
             </div>
-        </header>
+        </div>
     </body>
 </html>
