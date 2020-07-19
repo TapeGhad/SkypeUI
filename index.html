@@ -15,7 +15,9 @@
             <div class="header">
                 <div class="header_block1">
                     <div class="hb1_user">
-                        <div class="hb1_logo"><h4>EC</h4></div>
+                        <div class="hb1_logo">
+                            <div class="logo_status"></div>
+                        </div>
                         <h5 style="margin-right: 10px;color: rgba(0, 0, 0, 1);font-weight: 600;">Елисеев Сергей</h5>
                         <h5 title="Баланс">$0.00</h5>
                     </div>
@@ -23,8 +25,8 @@
                 </div>
                 <div class="header_block2">
                     <i class="fa fa-search"title="Люди, группы и сообщения"></i>
-                    <input class="inpput_search" title="Люди, группы и сообщения" placeholder="Люди, группы и сообщения"/>
-                    <div class="search_point" title="Использовать панель набора"></div>
+                    <input class="input_search" title="Люди, группы и сообщения" placeholder="Люди, группы и сообщения"/>
+                    <i class="fas fa-th" title="Использовать панель набора"></i>
                 </div>
                 <div class="header_block3" >
                     <div class="hb3_chats" style="margin-left: 10px;" title="Чаты">
@@ -45,76 +47,224 @@
                     </div>
                 </div>
                 <div class="header_block4">
-                    <div class="hb4_sobr" title="Собрание">
-                        <i class="fa fa-film"></i>
+                    <div class="hb4_sobr" title="Собрание"style="margin-left: 25px;">
+                        <i class="fas fa-video"></i>
                         <h4>Собрание</h4>
                     </div>
-                    <div class="hb4_newChat" style="margin: 0 20px 0 0;" title="Новый чат">
-                        <i class="fa fa-clipboard"></i>
+                    <div class="hb4_newChat" title="Новый чат" style="margin-right: 25px;">
+                        <i class="far fa-edit"></i>
                         <h4>Новый чат</h4>
                     </div>
                 </div>
-                <h4 class="header_rcn">Недавние чаты</h4>
-                <div class="header_block5">
-                    <div class="hb1_logo" style="margin-top: 0;"><h4>AI</h4></div>
-                    <div class="header_chatInfo">
-                        <h3>AIS</h3>
-                        <h4>Tapeghad joined...</h4>
-                    </div>
-                    <h4 class="header_block5_date">07.07.2020</h4>
+                <div class="recent_chats">
+                    <h4 class="header_rcn">Недавние чаты</h4>
+                    <i class="fas fa-chevron-down"></i>
                 </div>
-                <div class="header_block5" style="background-color: rgba(0, 0, 0, 0);">
-                    <div class="hb1_logo" style="margin-top: 0;"><h4>MG</h4></div>
-                    <div class="header_chatInfo">
-                        <h3>Minsk Guys</h3>
-                        <h4>Всем добра!</h4>
+                <div class="header_block_chats">
+                    <div class="header_block5" style="background-color: rgba(0, 0, 0, 0);">
+                        <div class="chat_logo1">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="header_chatInfo">
+                            <h3>Arni</h3>
+                            <h4>Sounds great!</h4>
+                        </div>
+                        <h4 class="header_block5_date">7/07/2020</h4>
                     </div>
-                    <h4 class="header_block5_date">06.07.2020</h4>
+                    <div class="header_block5" >
+                        <div class="hb1_logo" style="margin-top: 0; background-image: none;background-color: rgb(212, 212, 212);"><h4>AI</h4></div>
+                        <div class="header_chatInfo">
+                            <h3>AIS</h3>
+                            <div style="display: flex; flex-direction: row;">
+                                <i class="far fa-image" style="margin-top: 2px;"></i>
+                                <h4>Photo</h4>
+                            </div>
+                        </div>
+                        <h4 class="header_block5_date">6/07/2020</h4>
+                    </div>
+                    <div class="header_block5" style="background-color: rgba(0, 0, 0, 0);">
+                        <div class="chat_logo2">
+                            <div class="logo_status"></div>
+                        </div>
+                        <div class="header_chatInfo">
+                            <h3>Broudi</h3>
+                            <div style="display: flex; flex-direction: row;">
+                                <i class="fas fa-phone-volume" style="margin-top: 2px;"></i>
+                                <h4>Missed call</h4>
+                            </div>
+                        </div>
+                        <h4 class="header_block5_date">7/07/2020</h4>
+                    </div>
+                    <div class="header_block5" style="background-color: rgba(0, 0, 0, 0);">
+                        <div class="hb1_logo" style="margin-top: 0; background-image: none;background-color: rgb(212, 212, 212);"><h4>B&</h4></div>
+                        <div class="header_chatInfo">
+                            <h3>B&B</h3>
+                            <h4>It's gonna be cool...</h4>
+                        </div>
+                        <h4 class="header_block5_date">23/03/2019</h4>
+                    </div>
+                    <div class="header_block5" style="background-color: rgba(0, 0, 0, 0);">
+                        <div class="hb1_logo" style="margin-top: 0; background-image: none;background-color: rgb(212, 212, 212);"><h4>B&</h4></div>
+                        <div class="header_chatInfo">
+                            <h3>B&B</h3>
+                            <h4>It's gonna be cool...</h4>
+                        </div>
+                        <h4 class="header_block5_date">23/03/2019</h4>
+                    </div>
+                    <div class="header_block5" style="background-color: rgba(0, 0, 0, 0);">
+                        <div class="hb1_logo" style="margin-top: 0; background-image: none;background-color: rgb(212, 212, 212);"><h4>B&</h4></div>
+                        <div class="header_chatInfo">
+                            <h3>B&B</h3>
+                            <h4>It's gonna be cool...</h4>
+                        </div>
+                        <h4 class="header_block5_date">23/03/2019</h4>
+                    </div>
+                    <div class="header_block5" style="background-color: rgba(0, 0, 0, 0);">
+                        <div class="hb1_logo" style="margin-top: 0; background-image: none;background-color: rgb(212, 212, 212);"><h4>B&</h4></div>
+                        <div class="header_chatInfo">
+                            <h3>B&B</h3>
+                            <h4>It's gonna be cool...</h4>
+                        </div>
+                        <h4 class="header_block5_date">23/03/2019</h4>
+                    </div>
+                    <div class="header_block5" style="background-color: rgba(0, 0, 0, 0);">
+                        <div class="hb1_logo" style="margin-top: 0; background-image: none;background-color: rgb(212, 212, 212);"><h4>B&</h4></div>
+                        <div class="header_chatInfo">
+                            <h3>B&B</h3>
+                            <h4>It's gonna be cool...</h4>
+                        </div>
+                        <h4 class="header_block5_date">23/03/2019</h4>
+                    </div>
+                    <div class="header_block5" style="background-color: rgba(0, 0, 0, 0);">
+                        <div class="hb1_logo" style="margin-top: 0; background-image: none;background-color: rgb(212, 212, 212);"><h4>B&</h4></div>
+                        <div class="header_chatInfo">
+                            <h3>B&B</h3>
+                            <h4>It's gonna be cool...</h4>
+                        </div>
+                        <h4 class="header_block5_date">23/03/2019</h4>
+                    </div>
+                    <div class="header_block5" style="background-color: rgba(0, 0, 0, 0);">
+                        <div class="hb1_logo" style="margin-top: 0; background-image: none;background-color: rgb(212, 212, 212);"><h4>B&</h4></div>
+                        <div class="header_chatInfo">
+                            <h3>B&B</h3>
+                            <h4>It's gonna be cool...</h4>
+                        </div>
+                        <h4 class="header_block5_date">23/03/2019</h4>
+                    </div>
+                    <div class="header_block5" style="background-color: rgba(0, 0, 0, 0);">
+                        <div class="hb1_logo" style="margin-top: 0; background-image: none;background-color: rgb(212, 212, 212);"><h4>B&</h4></div>
+                        <div class="header_chatInfo">
+                            <h3>B&B</h3>
+                            <h4>It's gonna be cool...</h4>
+                        </div>
+                        <h4 class="header_block5_date">23/03/2019</h4>
+                    </div>
+                    <div class="header_block5" style="background-color: rgba(0, 0, 0, 0);">
+                        <div class="hb1_logo" style="margin-top: 0; background-image: none;background-color: rgb(212, 212, 212);"><h4>B&</h4></div>
+                        <div class="header_chatInfo">
+                            <h3>B&B</h3>
+                            <h4>It's gonna be cool...</h4>
+                        </div>
+                        <h4 class="header_block5_date">23/03/2019</h4>
+                    </div>
+                    <div class="header_block5" style="background-color: rgba(0, 0, 0, 0);">
+                        <div class="hb1_logo" style="margin-top: 0; background-image: none;background-color: rgb(212, 212, 212);"><h4>B&</h4></div>
+                        <div class="header_chatInfo">
+                            <h3>B&B</h3>
+                            <h4>It's gonna be cool...</h4>
+                        </div>
+                        <h4 class="header_block5_date">23/03/2019</h4>
+                    </div>
                 </div>
+                
             </div>
             <div class="chat_block">
                 <div class="chat_block_1">
-                    <div class="chb1_name">
-                        <h4 title="AIS">AIS</h4>
-                        <div class="chb1_name_actions" title="77 участников">
-                            <div class="chb1_na_1">
-                                <h5>77 участников</h5>
+                    <div class="chb1_main_info">
+                        <div class="chb1_name">
+                            <h4 title="AIS">AIS</h4>
+                            <div class="chb1_name_actions" title="77 участников">
+                                <div class="chb1_na_1">
+                                    <h5>77 участников</h5>
+                                </div>
+                                <h5> | </h5>
+                                <div class="chb1_na_2" title="Коллекция">
+                                   <i class="fa fa-image"></i>
+                                   <h5>Коллекция</h5> 
+                                </div>
+                                <h5> | </h5>
+                                <div class="chb1_na_3" title="Найти">
+                                    <i class="fa fa-search"></i>
+                                    <h5>Найти</h5> 
+                                </div>
                             </div>
-                            <h5> | </h5>
-                            <div class="chb1_na_2" title="Коллекция">
-                               <i class="fa fa-image"></i>
-                               <h5>Коллекция</h5> 
+                        </div>
+                        <div class="actions_in_chat" title="Видеозвонок">
+                            <div class="aic_camera">
+                                <i class="fa fa-camera"></i>
                             </div>
-                            <h5> | </h5>
-                            <div class="chb1_na_3" title="Найти">
-                                <i class="fa fa-search"></i>
-                                <h5>Найти</h5> 
+                            <div class="aic_phone" title="Голосовой звонок">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <div class="aic_contact" title="Добавление в группу">
+                                <i class="fa fa-user-plus"></i>
                             </div>
                         </div>
                     </div>
-                    <div class="actions_in_chat" title="Видеозвонок">
-                        <div class="aic_camera">
-                            <i class="fa fa-camera"></i>
+                    <div style="display: flex;flex-direction: row;width: 100%;">
+                        <div style="width: 50px;"></div>
+                        <div class="chb1_search">
+                            <i class="fa fa-search"title="Люди, группы и сообщения"></i>
+                            <input class="input_search" title="Поиск сообщений в текущей беседе" placeholder="Поиск сообщений в текущей беседе" style=" width: inherit;"/>
+                            <h4 style="cursor: default;">0/0</h4>
+                            <i class="fas fa-chevron-up"></i>
+                            <i class="fas fa-chevron-down"></i>
+                            <h4 class="chb1_cb">Отмена</h4>
                         </div>
-                        <div class="aic_phone" title="Голосовой звонок">
-                            <i class="fa fa-phone"></i>
-                        </div>
-                        <div class="aic_contact" title="Добавление в группу">
-                            <i class="fa fa-user-plus"></i>
-                        </div>
+                        <div style="width: 25px;"></div>
                     </div>
                 </div>
                 <div class="chat_block_2">
-                    <div class="chb2_message">
-                        <div class="hb1_logo"><h4>EC</h4></div>
+                    <div class="chb2_message" style="margin-top: auto;">
+                        <div class="hb1_logo"></div>
                         <div class="chb2_m_info">
-                            <h4 style="font-size: 15px;opacity: 0.7;cursor: text;">Сергей 19:38</h4>
-                            <div class="chb2_m_text">
-                                Всем привет!
+                            <h4 style="font-size: 14px;opacity: 0.7;cursor: text;font-weight: 500;">Сергей 19:38</h4>
+                            <div class="chb2_m_photo">
                             </div>
                         </div>
-                        <i class="fas fa-ellipsis-v"></i>
+                        <i class="far fa-smile"title="Отреагировать на сообщение"></i>
                     </div>
+                    <div class="chb2_message">
+                        <div class="chat_logo2"></div>
+                        <div class="chb2_m_info">
+                            <h4 style="font-size: 14px;opacity: 0.7;cursor: text;font-weight: 500;">Broudi 21:15</h4>
+                            <div class="chb2_m_message">По факту, ничего и не скажешь</div>
+                        </div>
+                        <i class="far fa-smile"title="Отреагировать на сообщение"></i>
+                    </div>
+                    <div class="chb2_message" style="margin-top: 0;">
+                        <div style="width: 56px;"></div>
+                        <div class="chb2_m_info">
+                            <div class="chb2_m_message" style="margin-top: 0;">Так что well done</div>
+                        </div>
+                        <i class="far fa-smile"title="Отреагировать на сообщение"></i>
+                    </div>
+                    <div class="chb2_message" style="margin-top: auto;">
+                        <div class="hb1_logo"></div>
+                        <div class="chb2_m_info">
+                            <h4 style="font-size: 14px;opacity: 0.7;cursor: text;font-weight: 500;">Сергей 19:38</h4>
+                            <div class="chb2_m_photo_2">
+                            </div>
+                        </div>
+                        <i class="far fa-smile"title="Отреагировать на сообщение"></i>
+                    </div>
+                    <div style="display:flex; flex-direction:row;width: fit-content; height: fit-content;margin-left: auto;margin-right: 20%;align-items: center;">
+                        <div class="chat_logo2" style="width: 25px;height: 25px;margin-right: 0;"></div>
+                        <div class="chat_logo1" style="width: 25px;height: 25px; margin-right: 0;"></div>
+                        <div class="chat_logo3" style="width: 25px;height: 25px; margin-right: 5px;"></div>
+                        <h4 style="font-size:15px;font-weight: 500;opacity: 0.7;">+21</h4>
+                    </div>
+                    
                 </div>
                 <div class="chat_block_3">
                     <div class="chb3_input_block">
